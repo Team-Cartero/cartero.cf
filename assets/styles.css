@@ -1,0 +1,6 @@
+*{font-family: 'Poppins', sans-serif;}
+body{background-color: #000; color: #fff;}
+a{text-decoration: none;color: #51A0D5;transition: 230ms;}a:hover{color: #0275d8;}
+.rounded-img{padding: 2px;border-radius: 50%;width: 200px;height: 200px;}
+.copyright-footer{text-transform: uppercase;color: #fff;font-size: 0.8rem;}
+.footer-link{color: #fff;transition: 230ms;}.footer-link:hover{color: #51A0D5;}

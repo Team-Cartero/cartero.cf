@@ -1,0 +1,1 @@
+function toggleBtn() {document.getElementById("nav-btn").classList.toggle("fa-equals");document.getElementById("nav-btn").classList.toggle("fa-times");}

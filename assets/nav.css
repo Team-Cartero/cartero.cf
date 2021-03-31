@@ -1,0 +1,8 @@
+nav{background-color: #000; opacity: 0.9; color: #fff;}
+.nav-padding{padding-left: 20px;}
+.brand-img{width: 20px; height: auto;}
+.nav-link{color: #fff;transition: 230ms;}.nav-link:hover{color: #51A0D5;}
+.nav-offset{margin-right: 40px;}
+.dropdown-menu{background-color: #000; opacity: 0.9; color: #fff;}
+.dropdown-item{color: #fff; transition: 230ms;}.dropdown-item:hover{background-color: #535150; color: #fff;}
+.toggler-btn{color: #fff;}

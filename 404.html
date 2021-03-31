@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Invalid URL!">
+    <meta name="keywords"
+        content="404">
+    <meta name="author" content="Rahul Nanwani">
+    <meta name="revised" content="Rahul Nanwani, 21/2/2021" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/nav.css">
+    <link rel="stylesheet" href="assets/404.css">
+
+    <title>Cartero - 404 Page Not Found</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-padding" href="index.html"><img class="brand-img"
+                        src="assets/favicon.png"></a>
+                <button class="navbar-toggler" onclick="toggleBtn()" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i id="nav-btn" class="toggler-btn fas fa-equals"></i>
+                </button>
+                <div class="collapse navbar-collapse nav-padding justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav me-auto ms-auto">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link"
+                                href="https://discord.com/oauth2/authorize?client_id=801321552250535977&scope=bot&permissions=2147483647">Add
+                                Cartero</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="https://discord.com/invite/bNZefkNqVw">Join Support</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="webhook.html">Webhook</a>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Commands
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="commands.html">All Commands</a></li>
+                                <li><a class="dropdown-item" href="commands.html#fun">Fun Commands</a></li>
+                                <li><a class="dropdown-item" href="commands.html#economy">Economy Commands</a></li>
+                                <li><a class="dropdown-item" href="commands.html#moderation">Moderation Commands</a></li>
+                                <li><a class="dropdown-item" href="commands.html#utility">Utility Commands</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="nav-offset"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container text-center not-found">
+        <h1>#404</h1>
+        <h2>Page Not Found!</h2>
+    </div>
+
+    <footer id="contact">
+        <div class="container text-center copyright-footer">
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 my-2">
+                    <a class="footer-link" href="mailto:support@cartero.cf" role="button">
+                        <i class="fas fa-envelope"></i> support@cartero.cf</a>
+                </div>
+                <div class="col-lg-6 col-md-6 my-2">
+                    <span>Copyright © <a class="footer-link" href="https://rahulnanwani.tk/">Rahul Nanwani</a>,
+                        <script>document.write(new Date().getFullYear())</script>.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e859d7b925.js" crossorigin="anonymous"></script>
+    <script src="assets/nav.js"></script>
+</body>
+
+</html>
