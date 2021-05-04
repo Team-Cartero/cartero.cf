@@ -1,1 +1,1 @@
-# cartero.cf
+Official website for Cartero Discord bot
