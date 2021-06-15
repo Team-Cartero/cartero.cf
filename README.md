@@ -1,1 +1,0 @@
-Official website for Cartero Discord bot
