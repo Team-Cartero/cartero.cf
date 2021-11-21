@@ -1,1 +1,0 @@
-ScrollReveal({ reset: true });ScrollReveal().reveal('#about', {delay: 230});
