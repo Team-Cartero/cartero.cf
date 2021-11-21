@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="description"
-        content="Blackjack PvP and PvE, 8ball, choose, roast, economy, moderation, mass move, and utility.">
+        content="Gamble. Rob. Own a pet, be the richest!">
     <meta name="keywords"
-        content="cartero, blackjack, slash command, multiplayer, mass move, 8ball, choose, roast, PvP, PvE, developer, webhook, discord, bot, python, json, aws, commands">
+        content="cartero, blackjack, multiplayer, mass move, gamble, rob, pets, roast, PvP, PvE, discord, bot, slash, interactive, buttons, topgg">
     <meta name="author" content="Rahul Nanwani">
-    <meta name="revised" content="Rahul Nanwani, 21/2/2021" />
+    <meta name="revised" content="Rahul Nanwani, 21/11/2021" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" itemprop="image" content="assets/cartero.svg">
+    <meta property="og:image" itemprop="image" content="assets/logo.png">
 
     <link rel="icon" href="assets/logo.png" type="image/png" width="16px" height="16px">
 
@@ -20,10 +20,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <link rel="stylesheet" href="assets/styles.css">
-    <link rel="stylesheet" href="assets/nav.css">
     <link rel="stylesheet" href="assets/index.css">
 
     <title>Cartero</title>
@@ -31,45 +27,16 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand nav-padding" href="index.html"><img class="brand-img"
-                        src="assets/logo.png" width="32px" height="32px"></a>
-                <button class="navbar-toggler" onclick="toggleBtn()" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i id="nav-btn" class="toggler-btn fas fa-equals"></i>
-                </button>
-                <div class="collapse navbar-collapse nav-padding justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav me-auto ms-auto">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link"
-                                href="https://discord.com/api/oauth2/authorize?client_id=801321552250535977&permissions=1359342678&scope=bot%20applications.commands">Add
-                                Cartero</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="https://discord.com/invite/bNZefkNqVw">Join Support</a>
-                        </li>
-                    </ul>
-                    <div class="nav-offset"></div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <section id="title">
         <div class="container">
             <h1>cartero</h1>
             <div class="container text-center">
-                Blackjack PvP and PvE, 8ball, choose, roast, economy, mass move, and utility. Slash commands!
+                Gamble. Rob. Own a pet, be the richest! <br>
+                Join the Support Server for a demo.
                 <div class="row">
                     <div class="col-lg-3 col-md-2"></div>
                     <div class="col-lg-3 col-md-4 col-sm-12 text-center my-4">
                         <a class="btn btn-primary"
-                            href="https://discord.com/api/oauth2/authorize?client_id=801321552250535977&permissions=1359342678&scope=bot%20applications.commands"
+                            href="https://discord.com/api/oauth2/authorize?client_id=801321552250535977&permissions=274895064129&redirect_uri=https%3A%2F%2Fsupport.cartero.cf&scope=bot%20applications.commands"
                             target="_blank" role="button"><i class="fas fa-plus"></i> Add Cartero</a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-12 text-center my-auto">
@@ -79,53 +46,21 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 text-center my-auto">
-                    <img class="rounded-img" src="assets/logo.png" alt="Cartero Logo">
-                </div>
-                <div class="col-lg-8 col-md-6 my-4">
-                    <h2 class="text-center">Cartero</h2>
-                    <p>
-                        Cartero is a discord bot, that allows basic moderation that includes purge messages and mass move. This bot lets you play blackjack with a friend of yours, or if you don’t have one, you can play with the bot, use fun commands like 8-ball, choose, and roast your friends. You can get a pet, beg, rob, and transfer the bot’s currency, also view your and your friend’s blackjack records, server leaderboards. You can also create polls, check avatars, view info of a user, a role, a guild, or the bot. Also supports slash commands!  
-                    </p>
-                    <p>
-                        Vote on: <a href="https://top.gg/bot/801321552250535977/vote">top.gg</a> |
-                        <a href="https://discordbotlist.com/bots/cartero/upvote">discordbotlist.com</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact">
+    <footer>
         <div class="container text-center copyright-footer">
             <hr>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 my-2">
-                    <a class="footer-link" href="mailto:support@cartero.cf" role="button">
-                        <i class="fas fa-envelope"></i> support@cartero.cf</a>
-                </div>
-                <div class="col-lg-6 col-md-6 my-2">
-                    <span>Copyright © <a class="footer-link" href="https://rahulnanwani.tk/">Rahul Nanwani</a>,
-                        <script>document.write(new Date().getFullYear())</script>.
-                    </span>
-                </div>
-            </div>
+            <span>Copyright © <a href="https://rahulnanwani.tk/">Rahul Nanwani</a>,
+                <script>document.write(new Date().getFullYear())</script>.
+            </span>
         </div>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e859d7b925.js" crossorigin="anonymous"></script>
-    <script src="https://discordbotlist.com/widget/index.js" async></script>
-    <script src="assets/index.js"></script>
-    <script src="assets/nav.js"></script>
 </body>
 
 </html>
